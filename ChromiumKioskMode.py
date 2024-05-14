@@ -21,8 +21,8 @@ try:
 except Exception as err:
     print(err)
     urls = [
-            "http://172.16.10.18/monitoring/check_mk/login.py?_origtarget=/monitoring/check_mk/dashboard.py?name=wombocombo&_username=dispuser&_password=CheckMKDashboard&_login=1",
-            "http://172.16.10.18/monitoring/check_mk/login.py?_origtarget=/monitoring/check_mk/dashboard.py?name=latencyDashboard&_username=dispuser&_password=CheckMKDashboard&_login=1"
+            "[URL1]",
+            "[URL2]"
     ]
 
 # Command to launch Chromium with the first URL and get the window ID
